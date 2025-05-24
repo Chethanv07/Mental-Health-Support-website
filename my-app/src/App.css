@@ -1,0 +1,1000 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Consultation Section */
+.consultation-section {
+    background-color: #f9f9f9;
+    padding: 25px 0;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* ✅ Adds shadow */
+}
+
+/* Button Styling */
+.book-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+.book-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Dashboard Section */
+.dashboard-section {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+/* Title & Welcome Text */
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dashboard-welcome {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.dashboard-card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.dashboard-btn {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Games Section */
+.games-section {
+    padding: 50px 0;
+}
+
+/* Title & Description */
+.games-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.games-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Play Game Button */
+.games-btn {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.games-btn:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Daily Activities Section */
+.daily-activities-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Title & Description */
+.daily-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.daily-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Activity List */
+.daily-list {
+    list-style: none;
+    padding: 0;
+}
+
+.daily-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Claim Reward Button */
+.daily-btn {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+}
+
+.daily-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Custom Navbar */
+.custom-navbar {
+    background-color: #6c757d;
+
+    padding: 10px 0;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.4rem;
+    color: rgb(11, 11, 11) !important;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: rgb(22, 17, 17) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Navbar Links Hover */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Navbar Icons */
+.navbar-nav .nav-link i {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.custom-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-brand {
+    font-weight: bold;
+    color: #000;
+}
+
+.custom-nav-link {
+    color: #000 !important;
+    margin-right: 12px;
+}
+
+
+
+.hero-section {
+    background-color: #f8f9fa;
+    margin-top: 70px;
+    padding: 50px 0;
+}
+
+.info-section {
+    padding: 40px 0;
+}
+
+.custom-card {
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn-accent {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-accent:hover {
+    background-color: #e0a800;
+}
+
+.welcome {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.p-Name {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.p-Name .sub {
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #2400ff, #ff00b3);
+    background-size: 400% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: slowGradientMove 20s infinite linear;
+}
+
+@keyframes slowGradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Open Sans Font (Variable Weight from 300 to 800) */
+.open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Playwrite HU Font (Variable Weight from 100 to 400) */
+.playwrite-hu-thin {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.playwrite-hu-regular {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.playwrite-hu-bold {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Sub-Title {
+    font-size: 25px;
+
+}
+
+/* Open Sans Font (Variable Weight from 300 to 800) */
+.open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* PT Serif Font */
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-serif-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Commissioner Font (Variable Weight from 100 to 900) */
+.commissioner-thin {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.commissioner-light {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.commissioner-regular {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.commissioner-bold {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.commissioner-black {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.game-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    width: 300px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+
+.game-banner {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.play-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}
+
+.game-frame-container {
+    margin-top: 20px;
+}
+
+.game-frame {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+.back-button,
+.home-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover,
+.home-button:hover {
+    background-color: #e68900;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.game-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Align game cards in a row */
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    width: 300px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-banner {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.play-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}
+
+.game-frame-container {
+    margin-top: 20px;
+}
+
+.game-frame {
+    width: 90%;
+    height: 500px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+.back-button,
+.home-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover,
+.home-button:hover {
+    background-color: #e68900;
+}
+
+
+.environment-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.environment-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.environment-card .card-body {
+    transition: background-color 0.3s ease;
+}
+
+.environment-card:hover .card-body {
+    background-color: #f0f8ff;
+    /* Light blue background on hover */
+}
+
+.environment-section {
+    padding: 60px 0;
+    /* Adds 60px padding to top and bottom */
+    background-color: #f8f9fa;
+    /* Light background for better visibility */
+}
+
+
+.environment-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.video-thumbnail {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-title {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.video-player {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background: #28a745;
+    border-radius: 5px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.video-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.video-player {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.chat-container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.chat-input button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Floating Chat Icon */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    /* Blue */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-icon:hover {
+    background-color: #0056b3;
+    /* Darker Blue */
+    transform: scale(1.1);
+}
+
+/* Chat Popup */
+.chat-popup {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 320px;
+    background-color: #ffffff;
+    /* White */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chat Header */
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    /* Blue */
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    color: white;
+}
+
+/* Close Button */
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Chat Box */
+.chat-box {
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Chat Messages */
+.user-message,
+.bot-message {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 5px 0;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* User Messages (Light Blue) */
+.user-message {
+    background-color: #d1e7ff;
+    /* Light Blue */
+    align-self: flex-end;
+    color: #000;
+}
+
+/* Bot Messages (Light Gray) */
+.bot-message {
+    background-color: #f1f1f1;
+    /* Light Gray */
+    align-self: flex-start;
+    color: #000;
+}
+
+/* Input Box */
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-input button {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+.chat-input button:hover {
+    background-color: #0056b3;
+    /* Darker Blue */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto+Slab:wght@100..900&display=swap');
+
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.features-section {
+    padding: 60px 0;
+    /* Top and bottom padding */
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    /* Adds space between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex: 1;
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* Horizontal Scrolling Layout */
+.image-grid {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+/* Card Layout */
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+}
+
+/* Meditation Image */
+.meditation-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Image Title */
+.image-title {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .image-grid {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
